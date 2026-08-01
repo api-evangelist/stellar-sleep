@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://stellarsleep.com/.well-known/*
+host: https://stellarsleep.com
+note: >-
+  stellarsleep.com is a Webflow site with a catch-all route: every probed path
+  returns HTTP 200 with Content-Type text/html serving the homepage document
+  (verified by body inspection). No genuine well-known documents are published,
+  so every entry below is recorded as a soft-404 (present: false) despite the
+  200 status. No raw files were saved because no real documents exist.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  present: false
+  soft_404: true
+- path: /.well-known/openid-configuration
+  status: 200
+  present: false
+  soft_404: true
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  present: false
+  soft_404: true
+- path: /.well-known/api-catalog
+  status: 200
+  present: false
+  soft_404: true
+- path: /.well-known/ai-plugin.json
+  status: 200
+  present: false
+  soft_404: true
+- path: /llms.txt
+  status: 200
+  present: false
+  soft_404: true

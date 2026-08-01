@@ -1,9 +1,28 @@
 aid: stellar-sleep
 name: Stellar Sleep
-description: 'Stellar Sleep is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Stellar Sleep (Y Combinator S23, backed by Initialized Capital) is a mobile
+  app that helps people with chronic insomnia sleep better using psychology
+  rather than medication. Its personalized program is based on CBT-I
+  (Cognitive Behavioral Therapy for Insomnia), the first-line treatment
+  recommended by sleep experts, delivered through iOS and Android apps
+  published by Merlin Collective, LLC. Started at Harvard Innovation Labs in
+  2021, Stellar Sleep also offers clinician and employer programs, with
+  clinical-system integrations arranged by its team. It is a consumer
+  digital-health product with no public developer API, SDK, or MCP surface.
 url: https://raw.githubusercontent.com/api-evangelist/stellar-sleep/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://stellarsleep.com/images/logo_stellar_green.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Health
+- Sleep
+- Insomnia
+- Mental Health
+- Digital Therapeutics
+- Mobile Apps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://stellarsleep.com/
+- type: Blog
+  url: https://stellarsleep.com/blog
+- type: Support
+  url: https://support.stellarsleep.com/portal/en/kb/stellar-sleep
+- type: SignUp
+  url: https://lp.stellarsleep.com/
+- type: TermsOfService
+  url: https://stellarsleep.com/terms
+- type: PrivacyPolicy
+  url: https://stellarsleep.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/stellarsleep
+- type: DomainSecurity
+  url: security/stellar-sleep-domain-security.yml
+- type: LLMsTxt
+  url: llms/stellar-sleep-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

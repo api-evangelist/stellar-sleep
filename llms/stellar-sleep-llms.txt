@@ -1,0 +1,34 @@
+<!-- generated: '2026-07-21' | method: generated | source: apis.yml + stellarsleep.com (no provider-published llms.txt; site catch-all serves HTML for /llms.txt) -->
+# Stellar Sleep
+
+> Stellar Sleep (Y Combinator S23, backed by Initialized Capital) is a mobile app that helps people with chronic insomnia sleep better using psychology — a personalized program based on CBT-I (Cognitive Behavioral Therapy for Insomnia), the first-line, medication-free treatment recommended by sleep experts. Available for iOS and Android; published by Merlin Collective, LLC.
+
+Stellar Sleep began at Harvard Innovation Labs in 2021 and launched publicly through Y Combinator's Summer 2023 batch. It is a consumer digital-health product: there is no public developer portal, API, SDK, or MCP server. Clinicians and employers can partner with Stellar Sleep through dedicated programs; integrations with clinical systems are handled by the Stellar Sleep team case by case rather than through a self-serve API.
+
+## Product
+
+- [Stellar Sleep](https://stellarsleep.com/): CBT-I insomnia app — learn to fall asleep faster and stay asleep longer.
+- [Free sleep quiz](https://lp.stellarsleep.com/): onboarding quiz that personalizes the program (sign-up funnel).
+- [iOS app](https://apps.apple.com/us/app/stellar-sleep-insomnia-cbt/id1602312365): Stellar Sleep: Insomnia CBT on the App Store.
+- [Android app](https://play.google.com/store/apps/details?id=one.slumber.client): Stellar Sleep - Insomnia CBT on Google Play.
+- [Science](https://stellarsleep.com/science.html): the CBT-I evidence base behind the program.
+- [Mission](https://stellarsleep.com/mission.html): company background and mission.
+
+## Programs
+
+- [For Clinicians](https://stellarsleep.com/for-clinicians.html): patient support tools, sleep-pattern monitoring, outcome analytics; system integration arranged with the Stellar Sleep team.
+- [For Employers](https://stellarsleep.com/employers.html): Stellar Sleep as an employee sleep-health benefit.
+
+## Resources
+
+- [Blog](https://stellarsleep.com/blog): insomnia and sleep-health articles.
+- [Understanding insomnia](https://stellarsleep.com/blog/understanding-insomnia)
+- [How does CBT-I work?](https://stellarsleep.com/blog/how-does-cbt-i-work)
+- [Help Center](https://support.stellarsleep.com/portal/en/kb/stellar-sleep): knowledge base and support portal.
+
+## Company
+
+- [GitHub organization](https://github.com/stellarsleep): public org (Flutter plugin tooling; no API client libraries).
+- [Y Combinator profile](https://www.ycombinator.com/companies/stellar-sleep)
+- [Terms of Use](https://stellarsleep.com/terms)
+- [Privacy Policy](https://stellarsleep.com/privacy)
